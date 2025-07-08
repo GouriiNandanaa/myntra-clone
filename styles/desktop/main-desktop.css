@@ -1,0 +1,169 @@
+.search-base {
+    margin: 81px auto 0;
+    max-width: 1600px;
+    display: block;
+
+    /* change this */
+    padding-bottom: 10000px;
+}
+
+.row-base {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.row-base::after {
+    clear: both;
+    content: " ";
+    display: table;               
+}
+
+.base-path {
+    vertical-align: top;    
+    padding: 20px 0 0;
+}
+
+.base-path-list {
+    padding-left: 0;
+    font-size: 14px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0 0 25px;
+    vertical-align: top;
+}
+
+.base-path-list li {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.base-path-list li::after {
+    font-size: 14px;
+    content: "/";
+    margin-left: 5px;
+    color: #282c3f;
+}
+
+.base-path-list li a {
+    text-decoration: none;
+    color: #282c3f;
+}
+
+.base-path-list .last-li {
+    font-family: 'bold';
+}
+
+.base-path-list .last-li::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.base-path-list .last-li span {
+    font-size: 14px;
+    margin: 0px;
+}
+
+/* row base  2 */
+
+.title-container {
+    margin: 10px 0 5px 25px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.title-container h1 {
+    font-family: 'bold';
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #282c3f;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
+
+.title-container span {
+    color: #878b94;
+    white-space: pre-wrap;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* sidebar starts from here in the desktop */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.search-left-container{
+
+    flex: 1 1 0%;
+    min-width: 252px;
+    max-width: 252px;
+    flex-grow: 0 !important;
+    /* padding-top: 23px; */
+
+}
+
+.column-base {
+    -webkit-box-direction: normal;
+    align-self: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+}
+
+.vertical-filters {
+    transition: margin .2s cubic-bezier(.25, .46, .45, .94);
+    margin-top: 0;
+    padding-top: 23px;
+
+}
+
+.condition {
+    position: static;
+}
+
+.vertical-filters-filters {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    position: relative;
+    border-right: 1px solid #edebef;
+
+}
+
+.header-container {
+    position: relative;
+    border-right: none !important;
+    padding-top: 0;
+
+}
+
+.header-title {
+    font-family: 'bold';
+
+}
