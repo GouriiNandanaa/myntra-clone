@@ -48,7 +48,7 @@ option {
 
 @font-face {
     font-family: 'regular';
-    src: url(assets/fonts/Assistant-Regular.woff2);
+    src: url(assets/fonts/Assistant-Regular.woff)
 }
 
 @font-face {
