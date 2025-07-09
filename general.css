@@ -38,7 +38,9 @@ svg {
 
     font-family: 'regular';
 }
-
+h1, h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
 input,
 select,
 option {
@@ -48,7 +50,7 @@ option {
 
 @font-face {
     font-family: 'regular';
-    src: url(assets/fonts/Assistant-Regular.woff2);
+    src: url(assets/fonts/Assistant-Regular.woff)
 }
 
 @font-face {
