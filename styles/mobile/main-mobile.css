@@ -188,6 +188,15 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
     font-size: 10px;
     line-height: 14.2857px;
     font-family: 'bold';
-    margin-left: 5px;
+    margin-left: 4px;
 }
 
+.mb-product-watermark{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    padding: 0 2px;
+    font-size: 10px;
+    background-color: #a9abb3;;
+    border-radius: 2px;
+}
