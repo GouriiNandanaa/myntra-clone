@@ -1,0 +1,23 @@
+@media screen and (max-width:255px) {
+    .mb-pink-banner{
+        display: none;
+    }
+
+    .mb-nav-container{
+        height: 112px !important;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .mb-pink-banner{
+        padding: 12px 6px !important;
+        background-color: aqua !important;
+    }
+
+    .mb-pink-banner{
+        font-size: 12px;
+        line-height: 17.1429px;
+        height: 58.2812px;
+    }
+}

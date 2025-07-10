@@ -1,0 +1,107 @@
+/* general and media queries in the mobile layout */
+
+
+
+
+/* general and media queries in the mobile layout */
+
+
+
+
+.mb-header {}
+
+.mb-nav-container {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    /* display: flex; */
+    color: rgb(66, 69, 83);
+    box-shadow: 0 1px 2px 0 rgba(148, 150, 159, .3);
+
+    height: 56px;
+}
+
+.mb-header-icon {
+    width: 24px;
+    height: 24px;
+    margin: 16px 16px 16px 0;
+    display: inline-block;
+}
+
+.back-icon {
+    display: inline-block;
+    /* background-color: black; */
+}
+
+.back-icon a {}
+
+.back-icon a svg {
+    height: 24px;
+    width: 24px;
+
+    margin: 16px;
+}
+
+
+.mb-myntra-icon {
+
+    display: inline-block;
+    margin: 16px 13px 16px 0;
+    vertical-align: top;
+    margin-left: -3px;
+}
+
+.mb-header-title {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    position: relative;
+    top: 11px;
+    font-family: 'bold';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: calc(100% - 260px);
+    margin-left: -0.5px;
+}
+
+.mb-header-first-line {}
+
+.mb-header-second-line {
+    font-family: 'regular';
+    font-size: 12px;
+}
+
+.mb-header-actions {
+    display: inline-block;
+    float: right;
+    width: 160px;
+    display: flex;
+}
+
+.mb-plus-icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.mb-search-icon {
+    display: inline-block;
+
+}
+
+.mb-heart-icon {
+    display: inline-block;
+
+}
+
+.mb-cart-icon {
+    display: inline-block;
+
+}
+
+
+
+

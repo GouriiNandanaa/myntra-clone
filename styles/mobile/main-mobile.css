@@ -1,0 +1,193 @@
+.mb-main {
+    padding-top: 56px;
+    min-height: calc(100vh - 50px);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* bottom sticky portionnnnn */
+.bottom-sticky-portion {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #eaeaec;
+    background-color: white;
+
+}
+
+.bottom-button-holder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.bottom-sticky-button svg {
+    width: 16px;
+    height: 16px;
+
+    position: relative;
+    left: 3px;
+    bottom: 1px;
+}
+
+body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
+    left: 4px;
+}
+
+.bottom-sticky-button {
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 14px 0 14px 0px;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+    color: #535766;
+    font-family: 'bold';
+}
+
+.mb-button-separator {
+    border-left: 1px solid #eaeaec !important;
+    width: 1px;
+    height: 22px;
+    z-index: 1;
+}
+
+.bottom-sticky-button span {
+    display: inline-block;
+    margin-left: 6px;
+    transform: translateX(3px);
+}
+
+
+
+
+/* pink portion */
+
+.mb-pink-banner {
+    background-image: linear-gradient(90deg, #bd6da6, #d799cb);
+    padding: 16px 8px;
+
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    height: 72px;
+}
+
+.mb-banner-text-container div:nth-child(1) {
+    font-family: 'bold';
+}
+
+.mb-banner-text-container div:nth-child(2) {
+    font-family: 'regular';
+}
+
+
+/* card layouttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+
+
+/* ul */
+
+.mb-search-results {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.mb-item {
+    margin: 0;
+    border-bottom: 0.5px solid #d4d5d9;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.mb-right-border-item {
+    border-right: .5px solid #d4d5d9;
+}
+
+.mb-top-border-item {
+    border-top: 1px solid #d4d5d9;
+}
+
+.mb-search-product {
+    position: relative;
+    text-align: center;
+}
+
+.mb-product-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.mb-img-wrapper {
+    width: auto !important;
+    position: relative;
+}
+
+.img-responsive img {
+    object-fit: cover;
+    object-position: top;
+    height: 255px;
+}
+
+.mb-product-ratings-container {
+    position: absolute;
+    height: 18px;
+    margin: -28px 0 0 11px;
+    border: 1px solid #eaeaec;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 5px;
+    border-radius: 9px;
+    width: auto;
+}
+
+.mb-rating-text {
+    font-size: 10px;
+    line-height: 14.2857px;
+
+    font-family: 'bold';
+}
+
+.mb-star-icon {
+    font-size: 9px;
+    padding: 3px;
+    background-image: url(https://constant.myntassets.com/pwa/assets/img/2bce8a2b-e1d5-465a-8980-62f3d778377c1548353615799-Fill-90-Copy-7.png);
+    background-size: cover;
+    position: relative;
+    margin: 0 6px 0 4px;
+}
+
+.mb-rating-count {
+    font-size: 10px;
+    line-height: 14.2857px;
+    font-family: 'bold';
+    margin-left: 5px;
+}
+
