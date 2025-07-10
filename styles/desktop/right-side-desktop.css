@@ -429,6 +429,8 @@
     text-align: center;
     margin-left: 64px;
     padding: 10px 22px;
+    display: inline-block;
+    margin-right: 9px;
 }
 
 .pagination-arrow-right {
@@ -438,8 +440,7 @@
     border: solid #282c3f;
     border-width: 2px 2px 0 0;
     margin-bottom: 1px;
-    margin-left: 4.797px;
-    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
     transform: rotate(45deg);
     margin-right: 2px;
 }
