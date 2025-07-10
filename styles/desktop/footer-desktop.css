@@ -194,15 +194,22 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
 } */
 
 .return-policy{
-
+    width: 250px;
+    float: left;
 }
 
 .return-elements{
-
+    margin: 15px 0 30px;
+    color: #696b79;
 }
 
 .first-space-container{
-
+    display: inline-block;
+    float: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 47.5px;
+    height: 40px;
 }
 
 .first-space{
@@ -210,5 +217,104 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
 }
 
 .return-text{
-    
+    color: (105, 107, 121);
+}
+
+.return-text strong{
+    color: rgb(40, 44, 63);
+    font-family: 'bold';
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+/* 33333333333333333333333333333333333333333 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popular-search-desktop hr{
+        border: 1px;
+    height: 1px;
+    background-color: #eaeaec;
+}
+
+.popular-search-title{
+    position: absolute;
+    margin-top: -15px;
+    background: #fafbfc;
+    padding-right: 10px;
+    color: #282c3f;
+    font-size: 12px;
+    font-family: 'bold';
+}
+
+.popular-search-contents{
+    margin-top: 30px;
+}
+
+.popular-search-contents a{
+        text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    /* padding-right: 2px; */
+}
+
+.popular-search-contents a::after{
+        content: "|";
+    margin-left: 5px;
+}
+
+body > div > div > div > footer > div > div.popular-search-desktop > div > div > a:nth-child(1){
+    background-color: red;
+    display: none;
+}
+
+.copyright-section{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.copy{
+    flex: 1;
+    color: #94969f;
+    margin-left: 100px;
+    font-family: 'regular';
+}
+
+.contact{
+    flex: 1;
+    color: #696b79;
+    font-family: 'regular';
+}
+
+.contact a{
+        text-decoration: none;
+    font-family: 'bold';
+    color: #526cd0;
+}
+
+.company{
+    flex: 1;
+    text-align: end;
+    color: #94969f;
+    font-family: 'regular';
 }
