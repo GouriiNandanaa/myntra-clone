@@ -58,6 +58,7 @@
 }
 
 .base-path-list .last-li {
+    color: rgb(40, 44, 63);
     font-family: 'bold';
 }
 
@@ -356,6 +357,7 @@ summary {
     /* margin top was initially 10px */
     margin: 11px -4px 0 4px;
     font-size: 12px;
+    font-weight: normal;
     font-family: 'bold';
 
 }
