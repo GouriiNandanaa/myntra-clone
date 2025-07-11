@@ -147,7 +147,7 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
     position: relative;
 }
 
-.img-responsive img {
+.mb-img-responsive img {
     object-fit: cover;
     object-position: top;
     height: 255px;
@@ -187,8 +187,10 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
 .mb-rating-count {
     font-size: 10px;
     line-height: 14.2857px;
+
+
     font-family: 'bold';
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .mb-product-watermark{
@@ -197,6 +199,146 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
     right: 10px;
     padding: 0 2px;
     font-size: 10px;
-    background-color: #a9abb3;;
+
+    background-color: #a9abb3;
+    color: white;
+
+
     border-radius: 2px;
+}
+
+/* text in the card */
+
+.mb-product-info{
+padding: 8px 0 8px 0;
+font-size: 12px;
+
+/* margin-bottom: -1.5px; */
+}
+
+.mb-product-brand{
+
+    width: 85%;
+    margin-bottom: 0;
+    padding-left: 8px;
+    font-size: 13px;
+    font-family: 'bold';
+    text-align: left;
+    color: #282c3f; 
+
+    line-height: 1.57;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.mb-product-product{
+    margin: 0;
+    padding-left: 8px;
+
+    max-width: 180px;
+
+
+
+    opacity: .6;
+   
+    font-size: 11px;
+    line-height: 12px;
+
+    text-align: left;
+    color: #282c3f;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mb-product-price-container{
+    margin-top: -1px;
+    padding-left: 6px;
+
+    max-height: 22.563px;
+
+    text-align: left;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  
+}
+.mb-price{
+
+    font-family: 'bold';
+    color: #282c3f;
+    font-size: 13px;
+}
+.mb-price svg{
+
+    position: relative;
+    top: 4px;
+}
+    
+.mb-price-value{
+
+    position: relative;
+    left: -2px;
+}
+.mb-original-price{
+
+    font-size: 13px;
+    opacity: .4;
+    text-decoration: line-through;
+
+    color: #282c3f;
+
+}
+
+.mb-disc-percent{
+
+    position: relative;
+    left: 0.5px;
+    font-size: 11px;
+
+    color: #ff905a;
+    font-family: 'bold';
+    white-space: nowrap;
+    
+}
+
+.mb-accelerator{
+
+    color: #ff5722;
+    font-size: 12px;
+    font-family: 'bold';
+    
+    min-height: 17px;
+    text-align: left;
+    margin-left: 8px; 
+}
+
+.mb-wishlist-icon-card-container{
+    color: #282c3f;
+    display: inline-block;
+    position: absolute;
+    bottom: 43px;
+    right: 0;
+    top: 2px;
+    padding-top: 4px;
+    padding-left: 15px;
+    height: 38px;
+}
+
+
+/* adjustments */
+
+.mb-first-price{
+    position: relative;
+    font-size: 13px;
+    color: #282c3f;
+    /* left: -2.4px; */
+
+}
+
+.mb-original-price svg{
+    position: relative;
+    top: 1px;
 }

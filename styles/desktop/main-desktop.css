@@ -29,35 +29,41 @@
 
 .base-path-list {
     padding-left: 0;
-    font-size: 14px;
-    overflow: hidden;
-    display: inline-block;
     margin: 0 0 0 25px;
+    font-size: 14px;
+
+    display: inline-block;
     vertical-align: top;
+    overflow: hidden;
+
 }
 
 .base-path-list li {
     font-size: 14px;
-    display: inline-block;
-    float: left;
     margin-right: 5px;
-    text-transform: capitalize;
+
+    float: left;
     line-height: 1;
+
+    text-transform: capitalize;
 }
 
 .base-path-list li::after {
-    font-size: 14px;
-    content: "/";
     margin-left: 5px;
     color: #282c3f;
+
+    font-size: 14px;
+    content: "/";
 }
 
 .base-path-list li a {
-    text-decoration: none;
     color: #282c3f;
+
+    text-decoration: none;
 }
 
 .base-path-list .last-li {
+    color: rgb(40, 44, 63);
     font-family: 'bold';
 }
 
@@ -83,23 +89,23 @@
 }
 
 .title-container h1 {
+    margin: 0;
+    display: inline-block;
     font-family: 'bold';
+    color: #282c3f;
+    font-size: 16px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-    color: #282c3f;
     max-width: 400px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0;
+    white-space: nowrap;
 }
 
 .title-container span {
-    color: #878b94;
-    white-space: pre-wrap;
-    display: inline-block;
-    font-size: 16px;
     margin: 0;
+    font-size: 16px;
+    color: #878b94;
+    display: inline-block;
+    white-space: pre-wrap;
 }
 
 /* sidebar starts from here in the desktop */
@@ -137,14 +143,11 @@ summary {
 }
 
 .column-base {
-    -webkit-box-direction: normal;
+    
     align-self: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-flex: 1;
 }
 
 .vertical-filters {
-    transition: margin .2s cubic-bezier(.25, .46, .45, .94);
     margin-top: 0;
     padding-top: 23px;
 
@@ -158,13 +161,18 @@ summary {
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 25px;
+
     border-bottom: 1px solid #e9e9ed;
-    position: relative;
     border-right: 1px solid #edebef;
+
+    position: relative;
+/*  */
 
 }
 
 .vertical-filters-filters:last-child {
+
+
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -172,6 +180,7 @@ summary {
 
 .header-container {
     position: relative;
+
     border-right: none !important;
     padding-top: 0;
 
@@ -183,13 +192,18 @@ summary {
 }
 
 .vertical-filter-header {
+
+
     text-transform: uppercase;
     font-size: 14px;
     margin: 0 0 18px;
-    clear: both;
+
+
     color: #282c3f;
-    display: block;
     font-family: 'bold';
+    display: block;
+    clear: both;
+
 }
 
 .category-container {
@@ -209,18 +223,23 @@ summary {
 .vertical-filter-labels {
     display: block;
     width: 95%;
-    white-space: nowrap;
-    cursor: pointer;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
     min-height: 17px;
     color: #282c3f;
+
+    
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .common-custom-checkbox input {
     margin: 0 13px 0 0;
-    visibility: hidden;
     padding: 0;
+
+    visibility: hidden;
+
 }
 
 .common-custom-checkbox .checkbox-text {
@@ -230,12 +249,15 @@ summary {
 }
 
 .common-checkbox-indicator {
+
+    width: 16px;
+    height: 16px;
+
     box-sizing: border-box;
     position: absolute;
     top: 0;
     left: 0;
-    width: 16px;
-    height: 16px;
+
     border: 1px solid #c3c2c9;
     background: #fff;
     border-radius: 2px;
@@ -243,77 +265,94 @@ summary {
 
 .common-checkbox-indicator::after {
     content: "";
-    position: absolute;
-    top: 4px;
-    left: 4px;
+
     z-index: 1;
     width: 8px;
     height: 5px;
+
+    position: absolute;
+    top: 4px;
+    left: 4px;
+
+    
+
     border-color: #fff;
-    border-style: none none solid solid;
+
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: solid;
     border-width: 2px;
-    transition: all .3s ease-in-out;
     transform: rotate(-45deg);
 }
 
 .filter-searchbox {
+    width: 30px;
+    height: 30px;
+
     position: absolute;
     top: 12px;
     right: 14px;
-    width: 30px;
-    height: 30px;
+    
     background-color: #f5f5f6;
     border-radius: 50%;
 }
 
 .search-icon-filter {
     display: inline-block;
+
     position: absolute;
-    cursor: pointer;
     right: 4px;
     top: 4px;
+
     transform: scale(.7);
+
     width: 21px;
     height: 21px;
+
     background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
     background-position: -754px 0;
     background-size: 1404px 105px;
 }
 
 .brand-more {
-    cursor: pointer;
+    margin-left: 27px;
+
+
     margin-top: 10px;
     font-size: 15px;
     color: #ff3f6c;
-    margin-left: 27px;
 }
 
 .slider-container {
     margin: 12px 0 4px;
 }
 
-.slider-root {
+.slider-wrapper {
     margin-right: 16px;
 }
 
-.slider-rootRail {
-    position: relative;
+.slider-full {
+
     height: 12px;
+
     background-color: #fff;
+    position: relative;
 }
 
-.slider-rootRailBar {
+.slider-line {
     position: absolute;
-    -webkit-transform: translateY(-50%);
+    width: 100%;
+
+    
     transform: translateY(-50%);
     left: 0;
     top: 50%;
-    width: 100%;
     height: 2px;
     background-color: #d4d5d9;
 }
 
-.slider-rootRailRange {
+.slider-root-rail {
     position: absolute;
     top: 10px;
     height: 2px;
@@ -321,8 +360,8 @@ summary {
     background-color: #ff3f6c;
 }
 
-.slider-rootRailThumbLeft,
-.slider-rootRailThumbRight {
+.slider-left-thumb,
+.slider-right-thumb {
     position: absolute;
     top: 0;
     border-radius: 50%;
@@ -332,17 +371,17 @@ summary {
     outline: none;
 }
 
-.slider-rootRailThumbLeft {
+.slider-left-thumb {
     transform: translateX(-75%);
 
 }
 
-.slider-rootRailThumbRight {
+.slider-right-thumb {
     transform: translateX(-25%);
 
 }
 
-.slider-thumbDot {
+.slider-unda {
     width: 4px;
     height: 4px;
     border-radius: 50%;
@@ -354,8 +393,12 @@ summary {
 
 .slider-dot-container {
     /* margin top was initially 10px */
+
+
     margin: 11px -4px 0 4px;
     font-size: 12px;
+
+    font-weight: normal;
     font-family: 'bold';
 
 }
@@ -372,6 +415,7 @@ summary {
 .colour-label {
     position: relative;
     height: 100%;
+
     line-height: 16px;
     vertical-align: top;
 }
@@ -379,8 +423,12 @@ summary {
 .colour-color-display {
     width: 15px;
     height: 15px;
+
+
     border-radius: 50%;
     display: inline-block;
+
+
     margin-right: 5px;
     margin-left: 27px;
 }
@@ -394,42 +442,48 @@ summary {
     padding-left: 0;
 }
 
-.discount-list li {
-    /* margin-bottom: 7px; */
-}
 
 .common-custom-radio {
     position: relative;
-    cursor: pointer;
-    vertical-align: middle;
     display: block;
+
     width: 95%;
     white-space: nowrap;
-    cursor: pointer;
+    min-height: 17px;
+
+
     overflow: hidden;
     text-overflow: ellipsis;
-    min-height: 17px;
     color: #282c3f;
 }
 
 .common-custom-radio input {
     margin: 0 16px 0 0;
-    visibility: hidden;
     padding: 0;
+
+    visibility: hidden;
 }
 
 .common-radio-indicator {
+
+
     box-sizing: border-box;
+
     position: absolute;
     top: 0;
     left: 0;
+    
     font-size: 14px;
 
 }
 
 .common-radio-indicator::before {
     box-sizing: border-box;
+    padding: 0;
+
     content: "";
+
+    
     position: absolute;
     z-index: 1;
     width: 16px;
