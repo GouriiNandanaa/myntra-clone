@@ -205,8 +205,9 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
 /* text in the card */
 
 .mb-product-info{
-padding: 8px 0;
+padding: 8px 0 8px 0;
 font-size: 12px;
+/* margin-bottom: -1.5px; */
 }
 
 .mb-product-brand{
@@ -244,6 +245,7 @@ font-size: 12px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;  
+    max-height: 22.563px;
 }
 .mb-price{
     font-family: 'bold';
