@@ -7,14 +7,14 @@
     font-family: 'light';
 }
 
-.index-all-container {
+.footer-contents-wrapper {
     padding: 20px 0 60px;
     color: #535766;
     width: 100%;
     text-align: justify;
 }
 
-.imdex-price-container {
+.footer-price-container {
     font-size: 12px;
     float: right;
     padding-left: 30px;
@@ -23,7 +23,7 @@
 
 }
 
-.index-title {
+.footer-subheading-title {
     text-transform: uppercase;
     font-family: 'bold';
     font-weight: normal;
@@ -33,43 +33,43 @@
 
 }
 
-.index-all-container h1,
-.index-all-container h2,
-.index-all-container h3 {
+.footer-contents-wrapper h1,
+.footer-contents-wrapper h2,
+.footer-contents-wrapper h3 {
     margin-bottom: -10px;
     margin-top: 30px;
 }
 
-.imdex-price-container table {
+.footer-price-container table {
     border-collapse: collapse;
 }
 
-.imdex-price-container table td,
-.imdex-price-container table th {
+.footer-price-container table td,
+.footer-price-container table th {
     text-align: left;
     padding: 8px 8px 8px 8px;
     /* font-size: 12px; */
 }
 
-.imdex-price-container table th {
+.footer-price-container table th {
     font-weight: normal;
     font-family: 'bold';
 }
 
-/* body > div.desktop-html > div > div > footer > div > div.index-all-container > div.imdex-price-container > table > thead > tr > th:nth-child(2) {
+/* body > div.desktop-html > div > div > footer > div > div.footer-contents-wrapper > div.footer-price-container > table > thead > tr > th:nth-child(2) {
     padding-left: 4.922px;
 } */
 
-.imdex-price-container table tr td:nth-child(2) {
+.footer-price-container table tr td:nth-child(2) {
     padding-left: 4.922px;
 }
 
-/* .imdex-price-container table tr th:nth-child(2){
+/* .footer-price-container table tr th:nth-child(2){
     padding-left: 4.922px;
 
 } */
 
-.imdex-price-container table td {
+.footer-price-container table td {
     font-family: 'regular';
 }
 
@@ -111,7 +111,7 @@
 
 /* li items and maker */
 
-/* .index-all-container li::before { */
+/* .footer-contents-wrapper li::before { */
 /* content: '';
   display: inline-block;
   width: 6px;
@@ -124,7 +124,7 @@
 
 
 
-.index-all-container li {
+.footer-contents-wrapper li {
     list-style-type: disc;
 }
 
