@@ -1,17 +1,16 @@
-
 .desktop-search-results .vertical-arrangement {
     height: auto;
 }
 
 
-.horizontal-filter-base {
-    
+    .top-line-desktop{
+
     width: 100%;
 
     border-bottom: 1px solid #eaeaec;
     padding-bottom: 15px;
     padding-top: 23px;
-    
+
     user-select: none;
 
 }
@@ -50,7 +49,7 @@
 }
 
 .sort-box .down-arrow {
-    
+
 
 
     float: right;
@@ -70,7 +69,7 @@
 
     display: flex;
     color: #282c3f;
-    
+
 
     flex-flow: row wrap;
     margin: -10px 0 0 16px;
@@ -317,7 +316,7 @@
 
 .product-sizes span {
     color: #535665;
-    
+
 }
 
 .product-price {
