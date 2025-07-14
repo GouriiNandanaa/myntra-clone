@@ -1,5 +1,5 @@
 
-.desktop-search-results .row-base {
+.desktop-search-results .vertical-arrangement {
     height: auto;
 }
 
@@ -149,7 +149,7 @@
     /* padding-left: 0; */
 }
 
-.product-base {
+.li-of-product {
 
     width: 210px;
     margin: 0 10px 30px;

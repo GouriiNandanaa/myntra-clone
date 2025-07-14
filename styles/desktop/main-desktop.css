@@ -1,13 +1,13 @@
-.search-base {
+main{
+
     margin: 81px auto 0;
     max-width: 1600px;
-    display: block;
 
     /* change this */
     /* padding-bottom: 10000px; */
 }
 
-.row-base {
+.vertical-arrangement {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,7 +16,7 @@
     align-content: stretch;
 }
 
-.row-base::after {
+.vertical-arrangement::after {
     clear: both;
     content: " ";
     display: table;
