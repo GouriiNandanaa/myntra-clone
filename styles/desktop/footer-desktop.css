@@ -1,7 +1,7 @@
 .footer-container {
     max-width: 1080px;
     margin: auto;
-    
+
     min-width: 980px;
 
     font-family: 'light';
@@ -23,57 +23,80 @@
 
 }
 
-.index-title{
+.index-title {
     text-transform: uppercase;
     font-family: 'bold';
     font-weight: normal;
     text-align: center;
     color: #696b79;
     font-size: 16px;
-    
+
 }
 
-.index-all-container h1, .index-all-container h2, .index-all-container h3{
+.index-all-container h1,
+.index-all-container h2,
+.index-all-container h3 {
     margin-bottom: -10px;
     margin-top: 30px;
 }
- 
-.imdex-price-container table{
+
+.imdex-price-container table {
     border-collapse: collapse;
 }
 
-.imdex-price-container table td, .imdex-price-container table th{
+.imdex-price-container table td,
+.imdex-price-container table th {
     text-align: left;
-    padding: 8px;
+    padding: 8px 8px 8px 8px;
     /* font-size: 12px; */
 }
 
-.imdex-price-container table td{
-    font-family: 'regular';
-} 
+.imdex-price-container table th {
+    font-weight: normal;
+    font-family: 'bold';
+}
 
-.date-table{
+/* body > div.desktop-html > div > div > footer > div > div.index-all-container > div.imdex-price-container > table > thead > tr > th:nth-child(2) {
+    padding-left: 4.922px;
+} */
+
+.imdex-price-container table tr td:nth-child(2) {
+    padding-left: 4.922px;
+}
+
+/* .imdex-price-container table tr th:nth-child(2){
+    padding-left: 4.922px;
+
+} */
+
+.imdex-price-container table td {
+    font-family: 'regular';
+}
+
+.date-table {
     font-style: italic;
     padding: 10px 0 0 6px;
     font-family: 'bold';
 }
 
-.index-desc-container{
+.index-desc-container {
     font-size: 14px;
     line-height: 1.5;
     margin: 20px 0;
     color: #7e818c;
     width: 61%;
 }
-.index-desc-container p{
+
+.index-desc-container p {
     margin-top: 14px;
     margin-bottom: 14px;
 }
-.index-desc-container p:first-child{
+
+.index-desc-container p:first-child {
     padding-top: 0;
 }
 
-.index-desc-container strong{
+.index-desc-container strong {
     color: #696b79;
     text-transform: uppercase;
     font-size: 13px;
@@ -81,15 +104,15 @@
     font-weight: normal;
 }
 
-.index-desc-container a{
+.index-desc-container a {
     font-family: 'bold';
     color: #7e818c;
 }
 
 /* li items and maker */
 
- /* .index-all-container li::before { */
-  /* content: '';
+/* .index-all-container li::before { */
+/* content: '';
   display: inline-block;
   width: 6px;
   height: 6px;
@@ -99,21 +122,23 @@
   vertical-align: middle; */
 /* } */
 
-.index-all-container li{
+
+
+.index-all-container li {
     list-style-type: disc;
 }
 
-.hey{
+.hey {
     font-family: 'light' !important;
     font-weight: normal;
 }
 
 
-body > div > div > div > footer > div > div > div.index-desc-container > div:nth-child(29) > h3{
+body>div>div>div>footer>div>div>div.index-desc-container>div:nth-child(29)>h3 {
     font-family: 'bold';
 }
 
-body > div > div > div > footer > div > div > div.index-desc-container > div:nth-child(29) > span > p{
+body>div>div>div>footer>div>div>div.index-desc-container>div:nth-child(29)>span>p {
     margin-top: 0;
 }
 
@@ -133,14 +158,15 @@ body > div > div > div > footer > div > div > div.index-desc-container > div:nth
 
 
 
-.desktop-info{
+.desktop-info {
     overflow: hidden;
     margin-bottom: 24px;
 
     font-family: 'light';
 }
 
-.shopping-links,.customer-policy{
+.shopping-links,
+.customer-policy {
     float: left;
     width: 175px;
     display: inline-block;
@@ -148,43 +174,51 @@ body > div > div > div > footer > div > div > div.index-desc-container > div:nth
     padding-right: 20px;
 }
 
-    
 
-.desktop-info-title{
+
+.desktop-info-title {
     font-family: 'bold';
     font-size: 12px;
     margin: 12px 0;
 }
 
-.shopping-links a,.customer-policy a{
+.shopping-links a,
+.customer-policy a {
     color: #696b79;
     display: block;
     font-size: 15px;
+
+
     text-decoration: none;
     padding-bottom: 5px;
     line-height: normal;
 }
-.customer-policy{
+
+.customer-policy {
     width: 15%;
     float: left;
 }
-.shopping-links a:nth-child(2),.shopping-links a:nth-child(10){
+
+.shopping-links a:nth-child(2),
+.shopping-links a:nth-child(10) {
     padding-top: 14px;
 }
 
-body > div > div > div > footer > div > div.desktop-info > div.customer-policy > a:nth-child(2){
+body>div>div>div>footer>div>div.desktop-info>div.customer-policy>a:nth-child(2) {
     padding-top: 14px;
 }
 
-.BLANK{
+.BLANK {
     height: 113px;
     width: 0px;
 }
 
-.exp-touch{
+.exp-touch {
     display: inline-block;
     vertical-align: top;
     padding-right: 20px;
+
+
     width: 380px;
     font-size: 15px;
     /* line-height: 19px; */
@@ -196,17 +230,17 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
     margin-top: 0;
 } */
 
-.return-policy{
+.return-policy {
     width: 250px;
     float: left;
 }
 
-.return-elements{
+.return-elements {
     margin: 15px 0 30px;
     color: #696b79;
 }
 
-.first-space-container{
+.first-space-container {
     display: inline-block;
     float: left;
     margin-left: -10px;
@@ -215,15 +249,12 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
     height: 40px;
 }
 
-.first-space{
 
-}
-
-.return-text{
+.return-text {
     color: (105, 107, 121);
 }
 
-.return-text strong{
+.return-text strong {
     color: rgb(40, 44, 63);
     font-family: 'bold';
     font-weight: normal;
@@ -252,13 +283,13 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
 
 
 
-.popular-search-desktop hr{
-        border: 1px;
+.popular-search-desktop hr {
+    border: 1px;
     height: 1px;
     background-color: #eaeaec;
 }
 
-.popular-search-title{
+.popular-search-title {
     position: absolute;
     margin-top: -15px;
     background: #fafbfc;
@@ -268,54 +299,54 @@ body > div > div > div > footer > div > div.desktop-info > div.customer-policy >
     font-family: 'bold';
 }
 
-.popular-search-contents{
+.popular-search-contents {
     margin-top: 30px;
 }
 
-.popular-search-contents a{
-        text-decoration: none;
+.popular-search-contents a {
+    text-decoration: none;
     color: #696b79;
     font-size: 15px;
     line-height: 25px;
     /* padding-right: 2px; */
 }
 
-.popular-search-contents a::after{
-        content: "|";
+.popular-search-contents a::after {
+    content: "|";
     margin-left: 3px;
 }
 
-body > div > div > div > footer > div > div.popular-search-desktop > div > div > a:nth-child(1){
+body>div>div>div>footer>div>div.popular-search-desktop>div>div>a:nth-child(1) {
     background-color: red;
     display: none;
 }
 
-.copyright-section{
+.copyright-section {
     display: flex;
     width: 100%;
     margin-top: 40px;
 }
 
-.copy{
+.copy {
     flex: 1;
     color: #94969f;
     margin-left: 100px;
     font-family: 'regular';
 }
 
-.contact{
+.contact {
     flex: 1;
     color: #696b79;
     font-family: 'regular';
 }
 
-.contact a{
-        text-decoration: none;
+.contact a {
+    text-decoration: none;
     font-family: 'bold';
     color: #526cd0;
 }
 
-.company{
+.company {
     flex: 1;
     text-align: end;
     color: #94969f;
