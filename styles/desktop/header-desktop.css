@@ -71,8 +71,6 @@ a {
     letter-spacing: 0.3px;
     color: #282c3f;
     border-bottom: none;
-    transition: left .2s ease-out, width 0.2s ease-out;
-    text-transform: uppercase;
     background-color: transparent;
     font-family: 'bold';
 }

@@ -43,7 +43,6 @@
 .sort-box span:nth-child(1) {
 
 
-    text-transform: capitalize;
     font-family: 'bold';
     color: #282c3f;
 }
@@ -56,7 +55,6 @@
     width: 15px;
     height: 10px;
 
-    display: inline-block;
     margin-left: 5px;
     margin-top: 5px;
     background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
