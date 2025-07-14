@@ -27,7 +27,7 @@
     
     font-family: 'bold';
     font-weight: normal;
-
+    
     text-align: center;
     color: #696b79;
     font-size: 16px;
@@ -99,6 +99,7 @@
 
 .footer-description-container strong {
     color: #696b79;
+    text-transform: uppercase;
     font-size: 13px;
     font-family: 'bold';
     font-weight: normal;
