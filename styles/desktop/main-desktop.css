@@ -157,7 +157,10 @@ summary {
     position: static;
 }
 
-.vertical-filters-filters {
+.filter-container {
+
+    position: relative;
+
     padding-top: 20px;
     padding-bottom: 15px;
     padding-left: 25px;
@@ -165,24 +168,22 @@ summary {
     border-bottom: 1px solid #e9e9ed;
     border-right: 1px solid #edebef;
 
-    position: relative;
     /*  */
 
 }
 
-.vertical-filters-filters:last-child {
+.filter-container:last-child {
 
-
-    border-bottom: none;
-    padding-bottom: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
-.header-container {
-    position: relative;
-
-    border-right: none !important;
+.filter-heading {
     padding-top: 0;
+
+    position: relative;
+    border-right: none;
 
 }
 
@@ -305,7 +306,7 @@ summary {
     right: 4px;
     top: 4px;
 
-    transform: scale(.7);
+    transform: scale();
 
     width: 21px;
     height: 21px;
