@@ -420,6 +420,8 @@
 }
 
 .pagination-double-arrow-left::before {
+
+    box-sizing: border-box;
     content: "";
 
     position: absolute;
@@ -435,6 +437,9 @@
 }
 
 .pagination-double-arrow-left::after {
+
+    box-sizing: border-box;
+
     content: "";
     position: absolute;
     top: 0;
