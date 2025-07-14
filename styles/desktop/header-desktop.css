@@ -1,5 +1,5 @@
 a {
-    color: #282c3f;  
+    color: #282c3f;
 }
 
 .desktop-container {
@@ -41,7 +41,7 @@ a {
     color: #282c3f;
 }
 
-.desktop-navbar {
+.d-navbar {
     margin: 0 0 0 1%;
     display: block;
     float: left;
@@ -59,25 +59,25 @@ a {
     text-align: center;
 }
 
-.d-nav-link {
+.d-nav-a {
     display: inline;
 }
 
-.d-nav-link a {
+.d-nav-a a {
     padding: 0 17px 28px;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-    letter-spacing: .3px;
+    letter-spacing: 0.3px;
     color: #282c3f;
     border-bottom: none;
-    transition: left .2s ease-out, width .2s ease-out;
+    transition: left .2s ease-out, width 0.2s ease-out;
     text-transform: uppercase;
     background-color: transparent;
     font-family: 'bold';
 }
 
-.desktop-actions {
+.header-icon-container-right {
     float: right;
     display: flex;
     line-height: 0;
@@ -122,7 +122,7 @@ a {
     padding-top: 10px;
     line-height: 6px;
 }
-                
+
 .desktop-wishlist {
     margin: 0 55px 0 10px;
     display: flex;
@@ -194,7 +194,7 @@ a {
     left: 1px;
 }
 
-.desktop-query {
+.d-searchbar-container {
     width: 320px;
     float: right;
     line-height: 0;
@@ -202,7 +202,7 @@ a {
     margin: 20px 8px 20px 40px;
 }
 
-.desktop-searchbar {
+.d-searchbar {
     display: inline-block;
     float: left;
     font-size: 14px;
@@ -241,11 +241,11 @@ a {
 }
 
 .search-icon {
-    transform: scale(.7);
+    transform: scale(0.7);
     display: inline-block;
     width: 21px;
     height: 21px;
     background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
     background-position: -754px 0;
     background-size: 1404px 105px;
-}   
+}

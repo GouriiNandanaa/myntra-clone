@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     border-top: 1px solid #eaeaec;
     background-color: white;
 
@@ -121,7 +122,7 @@ body>div.mb-main>div>div.bottom-sticky-portion>div>div:nth-child(3)>button>svg {
 }
 
 .mb-right-border-item {
-    border-right: .5px solid #d4d5d9;
+    border-right: 0.5px solid #d4d5d9;
 }
 
 .mb-top-border-item {
@@ -237,7 +238,7 @@ font-size: 12px;
 
 
 
-    opacity: .6;
+    opacity: 0.6;
    
     font-size: 11px;
     line-height: 12px;
@@ -281,7 +282,7 @@ font-size: 12px;
 .mb-original-price{
 
     font-size: 13px;
-    opacity: .4;
+    opacity: 0.4;
     text-decoration: line-through;
 
     color: #282c3f;

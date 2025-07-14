@@ -1,9 +1,9 @@
-.desktop-search-results .vertical-arrangement {
+.d-searchbar-containerch-results .vertical-arrangement {
     height: auto;
 }
 
 
-    .top-line-desktop{
+.top-line-desktop {
 
     width: 100%;
 
@@ -107,7 +107,7 @@
 
 .as-filter span {
     vertical-align: middle;
-    transform: scale(.8);
+    transform: scale(0.8);
     margin-left: 4px;
 
     background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
@@ -123,11 +123,11 @@
 
 /* search-results-section */
 
-.search-product-container {
-
-    padding-top: 24px;
-    padding-left: 15px;
+.result-container {
     padding-right: 20px;
+    padding-left: 15px;
+    padding-top: 24px;
+
 }
 
 
@@ -180,13 +180,13 @@
     justify-content: center;
     border-radius: 2px;
     padding: 0 0 0 4px;
-    background-color: hsla(0, 0%, 100%, .8);
+    background-color: hsla(0, 0%, 100%, 0.8);
 }
 
 .star-icon {
 
     margin-left: -2px;
-    transform: scale(.55);
+    transform: scale(0.55);
 
     background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
     background-position: -171px -28px;
@@ -206,7 +206,7 @@
 .product-separator {
 
     font-size: 10px;
-    margin: -.5px 6px 0 -2px;
+    margin: -0.5px 6px 0 -2px;
 }
 
 .product-watermark {
@@ -395,7 +395,7 @@
 
 .pagination-disabled {
     pointer-events: none;
-    opacity: .6;
+    opacity: 0.6;
 }
 
 .results-show-more-container .pagination-container .pagination-prev {
