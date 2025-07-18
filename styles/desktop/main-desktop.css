@@ -202,6 +202,7 @@ summary {
     font-family: 'bold';
     display: block;
     clear: both;
+    text-transform: uppercase;
 
 }
 
@@ -304,7 +305,7 @@ summary {
     right: 4px;
     top: 4px;
 
-    transform: scale();
+    transform: scale(0.7);
 
     width: 21px;
     height: 21px;

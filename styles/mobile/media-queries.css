@@ -21,3 +21,16 @@
         height: 58.2812px;
     }
 }
+
+
+@media screen and (max-width: 1203px) {
+    .d-searchbar-container {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .d-searchbar-container {
+        width: 100px;
+    }
+}
